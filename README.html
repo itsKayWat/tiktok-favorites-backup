@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Collection Archiver</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TikTok Collection Archiver</h1>
+    
+    <div class="container">
+        <h2>Purpose</h2>
+        <p>
+            TikTok Collection Archiver is a specialized tool designed to help users create local backups of their TikTok collections
+            and favorites. It downloads videos and preserves associated metadata, ensuring your content remains accessible even
+            when offline.
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Requirements</h2>
+        <ul>
+            <li>Python 3.7 or higher</li>
+            <li>Google Chrome browser</li>
+            <li>Windows, macOS, or Linux operating system</li>
+            <li>Active TikTok account logged in via Chrome</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Installation</h2>
+        <ol>
+            <li>Download the repository to your local machine</li>
+            <li>Open your terminal or command prompt</li>
+            <li>Navigate to the project directory</li>
+            <li>Run: <code>python requirements.py</code></li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <h2>How to Use</h2>
+        <ol>
+            <li>Make sure you're logged into TikTok in Chrome</li>
+            <li>Navigate to your TikTok collection or favorites</li>
+            <li>Copy the URL of the first video</li>
+            <li>Run: <code>python tt-collection-backup.py</code></li>
+            <li>Paste the URL when prompted</li>
+            <li>Wait for the backup process to complete</li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <h2>Use Cases</h2>
+        <ul>
+            <li>Content creators backing up inspiration collections</li>
+            <li>Researchers archiving themed content</li>
+            <li>Users wanting to preserve their favorite videos offline</li>
+            <li>Creating backups before cleaning up collections</li>
+            <li>Maintaining personal archives of curated content</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Example Scenario</h2>
+        <p>
+            Sarah is a dance choreographer who uses TikTok to save inspiring dance videos in her collections. 
+            She wants to ensure she doesn't lose access to these reference materials, so she uses TikTok Collection 
+            Archiver to create local backups. This allows her to:
+        </p>
+        <ul>
+            <li>Access videos offline during dance workshops</li>
+            <li>Organize content by dance style or technique</li>
+            <li>Preserve important reference material long-term</li>
+            <li>Share archived content with dance students</li>
+        </ul>
+    </div>
+
+    <div class="warning">
+        <h2>Important Notes</h2>
+        <ul>
+            <li>This tool is for personal backup purposes only</li>
+            <li>Please respect copyright and TikTok's terms of service</li>
+            <li>Private videos will be skipped but their URLs are saved</li>
+            <li>The tool uses your existing Chrome profile to maintain authentication</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Output Structure</h2>
+        <p>
+            The tool creates a backup directory containing:
+        </p>
+        <ul>
+            <li>Downloaded videos (MP4 format)</li>
+            <li>Video metadata (JSON files)</li>
+            <li>Collection information</li>
+            <li>Timestamps and organization details</li>
+        </ul>
+    </div>
+</body>
+</html>
