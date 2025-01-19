@@ -1,0 +1,7 @@
+tiktok-collection-archiver/
+├── README.md
+├── LICENSE
+├── requirements.py
+├── tt-collection-backup.py
+└── backup_collections/
+    └── .gitkeep
